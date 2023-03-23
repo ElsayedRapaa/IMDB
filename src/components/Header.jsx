@@ -7,7 +7,7 @@ import DarkMode from "./DarkMode";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between py-4 px-6 sm:px-8">
+    <header className="flex items-center justify-between py-4 px-6 sm:px-8 max-w-6xl mx-auto">
       <div className="flex gap-4 items-center">
         <MenuItem title="HOME" url="/" icon={<AiFillHome />} />
         <MenuItem title="ABOUT" url="/about" icon={<AiFillInfoCircle />} />
